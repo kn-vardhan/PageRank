@@ -73,7 +73,7 @@ for i in range(count):
         if len(give_ids) < 1:
             continue
         amount = old_rank / len(give_ids)
-        print(f'{key} -> {old_rank}; {amount} -> {give_ids}')
+#        print(f'{key} -> {old_rank}; {amount} -> {give_ids}')
 
         for id in give_ids:
             next_ranks[id] = next_ranks[id] + amount
