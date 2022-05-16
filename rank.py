@@ -92,7 +92,7 @@ for i in range(count):
     for (key, next_rank) in list(next_ranks.items()):
         new_count = new_count + next_rank
 
-    # computing the per paga average change from old rank to new rank
+    # computing the per page average change from old rank to new rank
     # to indicate the convergence of algorithm
     # finds the stability of the page
     # the more changes -> the less stable the page
