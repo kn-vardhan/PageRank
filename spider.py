@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from urllib.parse import urlparse
 from urllib.request import urlopen
+import warnings
+warnings.filterwarnings('ignore')
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()

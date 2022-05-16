@@ -2,6 +2,8 @@
 # just working with the database stored in the sqlite3
 import sqlite3
 import sys
+import warnings
+warnings.filterwarnings('ignore')
 
 connection = sqlite3.connect('spider-data.sqlite')
 cursor = connection.cursor()
