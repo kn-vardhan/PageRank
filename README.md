@@ -19,3 +19,5 @@ Steps to work it out
 - Enter the number of nodes you wish to have in the graph. E.g. _How many nodes? X_
 - Your pagerank graph is ready. Open the **force.html** page in your browser to view the visualization
 
+> To reset all the ranks of webpages, run '**python3 reset.py**'.
+> To find the pagerank of new webpage, delete the _spider-data.sqlite_ file and follow the above steps with a new url
