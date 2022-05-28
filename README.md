@@ -5,9 +5,12 @@ Implementation of the page rank algorithm
 > PageRank is an algorithm used by Google Search to rank web pages in their search engine results.
 
 Using Python modules, BeautifulSoup (a Python package to parse HTML and XML pages) and sqlite. The webpages were ranked based on the number of in-bound and out-bound links. 
-
+#
+The [Example.png](https://github.com/kn-vardhan/PageRank/blob/main/Example.png) shows the visualization of the final page rank algorithm run on the webpage https://iith.ac.in/.<br>
+NOTE: The page rank values might change based on the number of web pages being scraped, and it need not be the same.
+#
 Steps to work it out
-- Requirements - Python version 3.8, install SQLite browser in your PC
+- Requirements - Python version 3.7+, install SQLite browser in your PC
 - Open terminal or CommandPrompt
 - run the spider.py file using '**python3 spider.py**'
 - Enter the url you would like to parse and find the page rank associated to that url. E.g. https://iith.ac.in/
@@ -19,5 +22,5 @@ Steps to work it out
 - Enter the number of nodes you wish to have in the graph. E.g. _How many nodes? X_
 - Your pagerank graph is ready. Open the **force.html** page in your browser to view the visualization
 
-> To reset all the ranks of webpages, run '**python3 reset.py**'.
+> To reset all the ranks of webpages, run '**python3 reset.py**'. <br>
 > To find the pagerank of new webpage, delete the _spider-data.sqlite_ file and follow the above steps with a new url
