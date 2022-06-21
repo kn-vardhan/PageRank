@@ -66,4 +66,4 @@ fhand.write(']};')
 fhand.close()
 cursor.close()
 
-print("PageRank successfully executed. open force.html in a browser for viewing the visualization")
+print("PageRank successfully executed. open index.html in a browser for viewing the visualization")
