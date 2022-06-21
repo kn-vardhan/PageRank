@@ -7,6 +7,7 @@ Implementation of the page rank algorithm
 Using Python modules, BeautifulSoup (a Python package to parse HTML and XML pages) and sqlite. The webpages were ranked based on the number of in-bound and out-bound links. 
 #
 The [Example.png](https://github.com/kn-vardhan/PageRank/blob/main/Example.png) shows the visualization of the final page rank algorithm run on the webpage https://iith.ac.in/.<br>
+View the GitHub [html page](https://kn-vardhan.github.io/PageRank/) to see the final renderred PageRank in an interactive mode. <br>
 NOTE: The page rank values might change based on the number of web pages being scraped, and it need not be the same.
 #
 Steps to work it out
@@ -20,7 +21,7 @@ Steps to work it out
 - Next up, run the dump.py file with '**python3 dump.py**'. This program returns the number of html pages retrieved; the maximum number of nodes possible in the pagerank.
 - Next up, run the json.py file with '**python3 json.py**'
 - Enter the number of nodes you wish to have in the graph. E.g. _How many nodes? X_
-- Your pagerank graph is ready. Open the **force.html** page in your browser to view the visualization
+- Your pagerank graph is ready. Open the **index.html** page in your browser to view the visualization
 
 > To reset all the ranks of webpages, run '**python3 reset.py**'. <br>
 > To find the pagerank of new webpage, delete the _spider-data.sqlite_ file and follow the above steps with a new url
